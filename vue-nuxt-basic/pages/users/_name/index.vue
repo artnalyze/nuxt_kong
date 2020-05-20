@@ -5,7 +5,12 @@
 </template>
 
 <script>
-export default {}
+export default {
+  validate(data) {
+    return /^\d+$/.test(data.params.name)
+    // validate url only number
+  }
+}
 </script>
 
 <style scoped></style>
