@@ -9,20 +9,8 @@
         My peachy Nuxt.js project
       </h2>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+        <nuxt-link to="/admin" class="button--grey">Admin</nuxt-link>
+        <nuxt-link to="/users" class="button--grey">User</nuxt-link>
       </div>
     </div>
   </div>
