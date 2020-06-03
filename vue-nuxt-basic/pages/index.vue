@@ -10,7 +10,7 @@
       </h2>
       <div class="links">
         <nuxt-link to="/admin" class="button--grey">Admin</nuxt-link>
-        <nuxt-link to="/users" class="button--grey">User</nuxt-link>
+        <nuxt-link to="/users" class="button--grey">Users</nuxt-link>
       </div>
     </div>
   </div>
